@@ -5,7 +5,7 @@ function palindrome(str){
 	let isPalindrome = true;
 	let i = 0; j = strJoin.length-1;
 	while(i <= j && isPalindrome){
-		if(strJoin[i] !== strjoin[j]){
+		if(strJoin[i] !== strJoin[j]){
 			isPalindrome = false;
 		}
 		i++;
